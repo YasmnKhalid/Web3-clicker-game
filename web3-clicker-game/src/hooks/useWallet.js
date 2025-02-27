@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ethers } from "ethers";  // Ensure this is properly imported
+import { ethers } from "ethers";  
 
 const useWallet = () => {
   const [walletAddress, setWalletAddress] = useState(null);
